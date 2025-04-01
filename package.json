@@ -1,9 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "dismis-notifications",
-  "title": "Dismis Notifications",
-  "description": "Run Dismis apple script",
+  "name": "dismiss-notifications",
+  "title": "Dismiss Notifications",
+  "description": "Run Dismiss apple script",
   "icon": "extension-icon.png",
+  "version": "1.0.1",
   "author": "plutotom",
   "owner": "proctors",
   "categories": [
@@ -12,9 +13,9 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "dismis-notifications",
-      "title": "Dismis Notifications",
-      "description": "",
+      "name": "dismiss-notifications",
+      "title": "Dismiss Notifications",
+      "description": "Dismiss all notifications",
       "mode": "no-view"
     }
   ],
