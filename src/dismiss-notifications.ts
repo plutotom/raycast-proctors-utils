@@ -19,5 +19,5 @@ export default async function main() {
 	end try
 end tell
   `);
-  await showHUD("Copied date to clipboard");
+  await showHUD("Dismissed notifications");
 }
