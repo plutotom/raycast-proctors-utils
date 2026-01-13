@@ -229,6 +229,10 @@ export default function Command() {
       };
 
       await showHUD(`✓ Converted: ${fileNames} (copied)`);
+
+      // Open Finder to reveal the converted files
+      await open(path.dirname(outputPaths[0]));
+
       await popToRoot();
     } catch (error) {
       toast.style = Toast.Style.Failure;
