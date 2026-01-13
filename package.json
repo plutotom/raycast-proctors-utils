@@ -17,11 +17,18 @@
       "title": "Dismiss Notifications",
       "description": "Dismisses all notifications",
       "mode": "no-view"
+    },
+    {
+      "name": "convert-document",
+      "title": "Convert Document",
+      "description": "Convert documents between DOC, DOCX, and PDF formats",
+      "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.94.0",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "libreoffice-convert": "^1.6.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.0.4",
