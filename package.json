@@ -37,6 +37,12 @@
       "title": "Split PDF by Chapters",
       "description": "Detect chapters in a PDF and split into separate files",
       "mode": "view"
+    },
+    {
+      "name": "ocr-pdf",
+      "title": "OCR PDF",
+      "description": "OCR a PDF file and replace the original with a searchable version",
+      "mode": "view"
     }
   ],
   "dependencies": {
